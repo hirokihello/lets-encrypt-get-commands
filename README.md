@@ -70,3 +70,5 @@ echo "0 0 1 * * root python -c 'import random; import time; time.sleep(random.ra
 
 certが生成されたファイルの親ディレクトリを全て順番に、どの階層もchmod 755などで読み取り権限与えないとnginxで読み取れないので注意。
 
+参考記事
+https://qiita.com/sadayuki-matsuno/items/afbd960198bd0ae1101f
